@@ -1,3 +1,65 @@
-div>p{
-    color: crimson;
+*{
+    box-sizing: border-box;
 }
+
+
+.box{
+    
+    
+    background-color: lightgrey;
+    font-family: Georgia, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+
+    
+    
+}
+div>h2{
+    text-align: center;
+    
+    float: right;
+    border: 1px solid black;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom:0px;
+    
+}
+    
+div.titles{
+    text-align: center;
+    font-weight: bold;
+    color: navy;
+    font: xx-large;
+
+}
+.colour{
+    
+    margin-top: 20px;
+    clear: right;
+    position: relative;
+    
+    
+    
+}
+#i1{
+    background-color: lightseagreen;
+    color: rgb(202, 5, 104);
+}
+#i2{
+    background-color: lavenderblush;
+    color: royalblue;
+}
+#i3{
+    background-color: sandybrown;
+    color: black;
+}
+@media (min-width: 992px)
+@media (min-width: 768px) and (max-width:991px)
+@media (max-width: 767px)
